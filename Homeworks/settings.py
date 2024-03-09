@@ -37,8 +37,11 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    #my_app
-    'app_weekdays'
+    # my app
+    'app_weekdays',
+    'app_themes',
+    'app_pupils',
+
 ]
 
 MIDDLEWARE = [
