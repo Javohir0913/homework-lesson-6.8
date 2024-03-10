@@ -30,5 +30,5 @@ def pupils_show(request):
 
 def pupil_show(request, id):
     global pupils
-    print(pupils[id-1])
-    return render(request, 'pupil.html', {'pupil': pupils[id - 1]})
+    print([pupils[id-1]])
+    return render(request, 'pupil.html', {'pupils': [pupils[id - 1]]})
